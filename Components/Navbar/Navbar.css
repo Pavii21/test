@@ -1,0 +1,73 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 21px;
+    box-shadow: 0 6px 8px -7px black;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.nav-logo p{
+    color: black;
+    font-size: 43px;
+    font-weight: 800;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 55px;
+    color: black;
+    font-size: 35px;
+    font-weight: 600;
+}
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+}
+.nav-menu hr{
+    border: none;
+    width: 85%;
+    height: 8px;
+    border-radius: 15px;
+    background: #ff4141;
+}
+.nav-login-cart{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.nav-login-cart button{
+    width: 162px;
+    height: 63px;
+    outline: none;
+    border:3px solid #7a7a7a;
+    border-radius: 80px;
+    color: #515151;
+    font-size: 30px;
+    font-weight: 600;
+    background: white;
+    cursor: pointer;
+}
+.nav-login-cart button:active{
+    background:black;
+}
+.nav-cart-count{
+    width: 27px;
+    height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+    margin-left: -60px;
+    border-radius: 16px;
+    font-size: 19px;
+    background: red;
+    color: white;
+}

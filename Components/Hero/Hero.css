@@ -1,0 +1,69 @@
+.hero {
+    height: 100vh;
+    background: linear-gradient(180deg, #fde1fdff, #e1ffea22 60%);
+    display: flex;
+    align-items: center; /* Ensure both left and right parts are vertically centered */
+    padding: 0 80px; /* Add padding to give some space on the sides */
+  }
+  
+  .hero-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 50px; /* Adjust padding to align properly */
+    line-height: 1.1;
+  }
+  
+  .hero-left h2 {
+    color: #090909;
+    font-size: 31px;
+    font-weight: 600;
+  }
+  
+  .hero-left p {
+    color: #171717;
+    font-size: 100px;
+    font-weight: 700;
+    margin: 0; /* Ensure there is no extra margin around the text */
+  }
+  
+  .hero-hand-icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .hero-hand-icon img {
+    width: 105px;
+  }
+  
+  .hero-latest-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 310px;
+    height: 75px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background: #ff4141;
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    cursor: pointer; /* Make the button clickable */
+  }
+  
+  .hero-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-right img {
+    max-width: 100%; /* Ensure the image fits within the container */
+    height: auto; /* Maintain the aspect ratio */
+  }
+  
